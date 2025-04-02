@@ -10,7 +10,6 @@ entries = [
 
 const topTravelers = (logs) => {
     const tripTotals = {}
-    count = 0
     logs.forEach(element => {
         const [name, city] = element.split(":")
         // console.log(`Name ${name} city ${city}`)
