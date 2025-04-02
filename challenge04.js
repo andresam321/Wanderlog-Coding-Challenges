@@ -44,8 +44,6 @@ const logs = [
     // console.log(results)
     results.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
     return results.map(([city, avg]) => `${city} ${avg.toFixed(2)}`)
-    
-
   }
 
   console.log(averageRating(logs));
